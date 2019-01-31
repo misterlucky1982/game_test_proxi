@@ -1,7 +1,7 @@
 package by.game.proxi;
 
 public interface IRobot extends IGameActor{
-	void nextTask(ITaskQueue queue);
+	void nextTask(ITaskSource source);
 	void die();
 	void free();
 	void say(String message);
