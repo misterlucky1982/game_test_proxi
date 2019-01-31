@@ -7,4 +7,5 @@ public interface IGameWorld {
 	void addRobot(IRobot robot);
 	IRobot getById(Object id);
 	IRobot someRobot();
+	void setIGameActivityTracker(IGameActivityTracker activityTacker);
 }
