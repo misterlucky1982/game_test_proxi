@@ -8,4 +8,5 @@ public interface IGameWorld {
 	IRobot someRobot();
 	ITaskQueue getCommonQueue();
 	ITaskQueue getRobotQueue(Object id);
+	void logActivity(String message);
 }
