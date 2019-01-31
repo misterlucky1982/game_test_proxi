@@ -10,7 +10,5 @@ public interface IGameWorld {
 	void addRobot(IRobot robot);
 	IRobot getById(Object id);
 	IRobot someRobot();
-	ITaskQueue getCommonQueue();
-	ITaskQueue getRobotQueue(Object id);
 	void logActivity(String message);
 }
