@@ -8,4 +8,5 @@ public interface IGameWorld {
 	IRobot getById(Object id);
 	IRobot someRobot();
 	void setIGameActivityTracker(IGameActivityTracker activityTacker);
+	void startGame();
 }
